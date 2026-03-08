@@ -176,3 +176,62 @@ ggplot(data_long_2, aes(x = `Site of Stimulation`, y = Value, fill = Signal)) +
 <b>```</b>
 </pre> 
 </details>
+
+### $\color{#fffff}{\text{Lab 3 result: Generating Table and Changing table format into Markdown}}$ 
+<details><summary>$\color{#fffff}{\text{Open/Close}}$ </summary> 
+
+<pre>
+<b>```R</b>
+# ==========================================================
+# Project: 4006BIO - Lab 3: Spirometry
+# By: Jiyoon Song
+# Content: Pulmonary Function Test
+# ==========================================================
+
+# 4006BIO_Lab 3_A
+# Data Input
+Lab_data <- data.frame(
+  "Respiratory Parameter" = c("Peak inspiratory flow (PIF), L/s", 
+                              "Peak expiratory flow (PEF), L/s", 
+                              "Time for forced vital capacity (FVC), s", 
+                              "Forced vital capacity (FVC), L", 
+                              "Forced expiratory volume in 1 second (FEV_1), L", 
+                              "% FVC expired (in 1s), %"),
+  "Normal Breathing" = c(1.437, -2.019, -4.28, 2.602, 2.667, 102.50),
+  "Obstructed Breathing" = c(0.4128, -0.3639, -10.75, 3.783, 3.527, 93.23),
+  check.names = FALSE
+)
+# print(Lab_data) 
+
+library(knitr) #tool for generating a Markdown table
+kable(Lab_data, 
+      align = "lcc", #alignment: left/centre/right, write in order of columns
+      caption = "Table: Pulmonary Function Test Results")
+
+# 4006BIO_Lab 3_B
+#Data Input
+Lab_data_B1 <- data.frame(
+  "Description" = c("Respiratory rate (RR), breaths/min (BPM)", "Tidal volume (Vᴛ), L", "Expired minute volume (Vᴇ(=Vᴛ*BPM)), L/min", "Inspiratory reserve volume (IRV), L", "Expiratory reserve volume (ERV), L", "Sample's predicted RV (RV), L"),
+# subscript: either copy&paste / []
+  "Normal Breathing" = c(16.38, 1.38, 22.60, 2.821, 1.073, NA),
+  check.names = FALSE
+)
+
+Lab_data_B2 <- data.frame(
+  "Lung Capacities (L)" = c("Inspiratory capacity (IC=Vᴛ+IRV)", "Expiratory capacity (EC=Vᴛ+ERV)","Vital capacity (VC=IRV+ERV+Vᴛ)", "Functional residual capacity (FRC=ERV+RV)", "Total lung capacity (TLC=VC+RV)"),
+  "Calculated Value-Normal Breathing" =c(4.20, 2.45, 5.27, NA, NA),
+  check.names = FALSE
+)
+# B1, B2 division bc: diff column content but same category (c.f.ed OG data)
+
+library(knitr)
+kable(Lab_data_B1, 
+      align = "lc",
+      caption = "Pulmonary Function Test Results: Static Measurements")
+
+kable(Lab_data_B2, 
+      align = "lc",
+      caption = "Pulmonary Function Test Results: Static Measurements")
+<b>```</b>
+</pre> 
+</details>
