@@ -1,4 +1,6 @@
 ## $\color{#fffff}{\text{DAY 1}}$
+### $\color{#fffff}{\text{Lab 1 result: Basic Graphs (line, bar)}}$ 
+<details><summary>$\color{#fffff}{\text{Open/Close}}$ </summary> 
 
 <pre>
 <b>```R</b>
@@ -114,4 +116,63 @@ ggplot(summary_data, aes(x = Condition, y = Mean, fill = Condition)) +
   guides(fill = "none") # Remove legend duplication
 
 <b>```</b>
-</pre>
+</pre> 
+</details>
+
+### $\color{#fffff}{\text{Lab 2 result: Separating Graphs (Using facet)}}$ 
+<details><summary>$\color{#fffff}{\text{Open/Close}}$ </summary> 
+
+<pre>
+<b>```R</b>
+# ==========================================================
+# Project: 4006BIO - Lab 2: Nerve Conduction Study
+# By: Jiyoon Song
+# Content: Latency and Amplitude comparison on site of stimulation (wrist vs elbow)
+# ==========================================================
+
+# Data Input
+Lab_data_2 <- data.frame(
+  # space in column name -> cover with backticks ``
+  `Site of Stimulation` = c("Wrist", "Elbow"), 
+  Latency = c(4, 1),
+  Amplitude = c(4.734, 0.125),
+
+  # !!  to keep the original name (space won’t be replaced by .):
+  check.names = FALSE 
+)
+
+
+# Data Transformation
+library(tidyr)
+data_long_2 <- pivot_longer(Lab_data_2, 
+                            cols = c("Latency", "Amplitude"), 
+                            names_to = "Signal", 
+                            values_to = "Value")
+
+
+# 3.  Visualisation
+library(ggplot2)
+
+ggplot(data_long_2, aes(x = `Site of Stimulation`, y = Value, fill = Signal)) +
+  # stat="identity" -> plot the actual values from the data
+  geom_bar(stat = "identity", width = 0.5) +
+
+  # facet_wrap -> separate graph from “Signal”
+  # scales = "free_y" -> separate y-axis
+  facet_wrap(~Signal, scales = "free_y") + 
+  scale_fill_manual(values = c("Latency" = "red", "Amplitude" = "blue")) +
+  labs(title = "Nerve Conduction Study: Wrist vs Elbow",
+       subtitle = "Independent visual analysis by signal types (Time vs Voltage)",
+       x = "Measurement Site",
+       y = "Measured Value (ms / mV)",
+       caption = "Wrist-elbow distance: 220mm, Conduction velocity: -73.33m/s") +
+ theme_bw() +
+  
+  # Detailed design
+  theme(
+    strip.text = element_text(face = "bold", size = 12), # make face text bold
+    legend.position = "none" # hide legends (already have it!)
+  )
+<b>```</b>
+</pre> 
+</details>
