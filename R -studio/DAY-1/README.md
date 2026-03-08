@@ -1,12 +1,12 @@
-DAY 1
+## $\color{#fffff}{\text{DAY 1}}$
 
 <pre>
 <b>```R</b>
 
 # ==========================================================
 # Project: 4006BIO: Human Physiology - Homeostasis and Health (Lab 1)
-# 작성자: Jiyoon Song
-# 분석 내용: Visualisation of data: EMG, Muscle Fatigue, Changes in Force over time
+# by. Jiyoon Song
+# Contents: Visualisation of data: EMG, Muscle Fatigue, Changes in Force over time
 # ==========================================================
 
 # 0. Import Library
