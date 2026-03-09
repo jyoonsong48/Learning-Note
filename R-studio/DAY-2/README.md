@@ -160,3 +160,56 @@ kable(Lab_data_F,
 <b>```</b>
 </pre> 
 </details>
+
+### $\color{#fffff}{\text{Lab 2 re-result: Graph}}$ 
+<details><summary>$\color{#fffff}{\text{Open/Close}}$ </summary> 
+
+<pre>
+<b>```R</b>
+# ==========================================================
+# Project: 4006BIO - Lab 2: Nerve Conduction Study
+# By: Jiyoon Song
+# Content: Latency and Amplitude comparison on site of stimulation (wrist vs elbow)
+# ==========================================================
+
+library(ggplot2)
+library(patchwork) # tool to combine two graphs under one title (left&right)
+
+# Data Input
+Lab_data <- data.frame(
+  "Site of Stimulation"= c("Wrist", "Elbow"), 
+  "Latency" = c(4, 1),
+  "Amplitude" = c(4.734, 0.125),
+  check.names = FALSE
+)
+
+# Making left part of the graph
+p_left <- ggplot(Lab_data, aes(x = `Site of Stimulation`, y = Latency, fill = `Site of Stimulation`)) +
+  geom_bar(stat = "identity", width = 0.5) +
+  scale_fill_manual(values = c("Wrist" = "#E41A1C", "Elbow" = "#377EB8")) +
+  labs(title = "Latency (ms)", x = NULL, y = "ms") +
+  theme_bw() +
+  theme(legend.position = "none")
+
+# Making right part of the graph
+p_right <- ggplot(Lab_data, aes(x = `Site of Stimulation`, y = Amplitude, fill = `Site of Stimulation`)) +
+  geom_bar(stat = "identity", width = 0.5) +
+  scale_fill_manual(values = c("Wrist" = "#4DAF4A", "Elbow" = "#984EA3")) +
+  labs(title = "Amplitude (mV)", x = NULL, y = "mV") +
+  theme_bw() +
+  theme(legend.position = "none")
+
+# Combine two graphs
+combined_plot <- p_left + p_right
+
+# Adding the title, caption, and theme
+combined_plot + plot_annotation(
+  title = "Nerve Conduction Study: Detailed Comparison",
+  caption = "Wrist-elbow distance: 220mm, Conduction velocity: -73.33m/s",
+  theme = theme(plot.title = element_text(size = 18, face = "bold", hjust = 0.5))
+) # hjust -> centre alignment
+# remember not to use “” inside aes()
+# better to use patchwork when two different y axis needed!!
+<b>```</b>
+</pre> 
+</details>
