@@ -1,4 +1,4 @@
-### $\color{#fffff}{\text{1.3: Some Hidden Messages are More Surprising than Others}}$ 
+### $\color{#fffff}{\text{1.3: Generating Complementary Strand of a DNA Sequence}}$ 
 <details><summary>$\color{#fffff}{\text{Open/Close}}$ </summary> 
 
 <pre>
@@ -25,7 +25,7 @@ print(Reverse_Complement)
 </pre> 
 </details>
 
-### $\color{#fffff}{\text{1.3: Some Hidden Messages are More Surprising than Others}}$ 
+### $\color{#fffff}{\text{1.3: Finding Locations of Certain Pattern in a DNA Sequence}}$ 
 <details><summary>$\color{#fffff}{\text{Open/Close}}$ </summary> 
 
 <pre>
