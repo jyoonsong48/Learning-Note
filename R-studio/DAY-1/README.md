@@ -3,7 +3,7 @@
 <details><summary>$\color{#fffff}{\text{Open/Close}}$ </summary> 
 
 <pre>
-<b>```R</b>
+<b>R</b>
 
 # ==========================================================
 # Project: 4006BIO: Human Physiology - Homeostasis and Health (Lab 1)
@@ -115,7 +115,7 @@ ggplot(summary_data, aes(x = Condition, y = Mean, fill = Condition)) +
   theme_bw() +
   guides(fill = "none") # Remove legend duplication
 
-<b>```</b>
+<b></b>
 </pre> 
 </details>
 
@@ -123,7 +123,7 @@ ggplot(summary_data, aes(x = Condition, y = Mean, fill = Condition)) +
 <details><summary>$\color{#fffff}{\text{Open/Close}}$ </summary> 
 
 <pre>
-<b>```R</b>
+<b>R</b>
 # ==========================================================
 # Project: 4006BIO - Lab 2: Nerve Conduction Study
 # By: Jiyoon Song
@@ -173,7 +173,7 @@ ggplot(data_long_2, aes(x = `Site of Stimulation`, y = Value, fill = Signal)) +
     strip.text = element_text(face = "bold", size = 12), # make face text bold
     legend.position = "none" # hide legends (already have it!)
   )
-<b>```</b>
+<b></b>
 </pre> 
 </details>
 
@@ -181,7 +181,7 @@ ggplot(data_long_2, aes(x = `Site of Stimulation`, y = Value, fill = Signal)) +
 <details><summary>$\color{#fffff}{\text{Open/Close}}$ </summary> 
 
 <pre>
-<b>```R</b>
+<b>R</b>
 # ==========================================================
 # Project: 4006BIO - Lab 3: Spirometry
 # By: Jiyoon Song
@@ -232,6 +232,6 @@ kable(Lab_data_B1,
 kable(Lab_data_B2, 
       align = "lc",
       caption = "Pulmonary Function Test Results: Static Measurements")
-<b>```</b>
+<b></b>
 </pre> 
 </details>
