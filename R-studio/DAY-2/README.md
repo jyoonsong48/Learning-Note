@@ -3,7 +3,7 @@
 <details><summary>$\color{#fffff}{\text{Open/Close}}$ </summary> 
 
 <pre>
-<b>```R</b>
+<b>R</b>
 # ==========================================================
 # Project: 4006BIO: Human Physiology - Homeostasis and Health (Lab 4)
 # by. Jiyoon Song
@@ -46,7 +46,7 @@ Lab_data_B1 <- data.frame(
 kable(Lab_data_B1, 
       align = "lcccc",
       caption = "ECG and Pulse: With Exercise")
-<b>```</b>
+<b></b>
 </pre> 
 </details>
 
@@ -54,7 +54,7 @@ kable(Lab_data_B1,
 <details><summary>$\color{#fffff}{\text{Open/Close}}$ </summary> 
 
 <pre>
-<b>```R</b>
+<b>R</b>
 # ==========================================================
 # Project: 4006BIO - Lab 5: Blood Pressure
 # By: Jiyoon Song
@@ -157,7 +157,7 @@ kable(Lab_data_F,
       caption = "Height Difference from Heart to Blood Pressure Cuff")
 
 # Remember to put ) at the end!!!!
-<b>```</b>
+<b></b>
 </pre> 
 </details>
 
@@ -165,7 +165,7 @@ kable(Lab_data_F,
 <details><summary>$\color{#fffff}{\text{Open/Close}}$ </summary> 
 
 <pre>
-<b>```R</b>
+<b>R</b>
 # ==========================================================
 # Project: 4006BIO - Lab 2: Nerve Conduction Study
 # By: Jiyoon Song
@@ -210,6 +210,6 @@ combined_plot + plot_annotation(
 ) # hjust -> centre alignment
 # remember not to use “” inside aes()
 # better to use patchwork when two different y axis needed!!
-<b>```</b>
+<b></b>
 </pre> 
 </details>
