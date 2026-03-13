@@ -16,5 +16,5 @@ $\text{1.8 Some Hidden Messages are More Elusive than Others}$
 <br> 🔗 <kbd> [![1.8](https://img.shields.io/badge/1.8-97BFB4?style=for-the-badge)](./1.8) </kbd>
 
 ### $\text{📍 VeniVidiOri}$
-$\text{: Tool for Finding DnaA Boxes in Bacteria via Minimum Skew and Mismatch Search}$
+$\text{: Tool for Finding DnaA Boxes in Bacteria via Minimum Skew and Mismatch Search}$ 
 <br> 🔗 <kbd> [![VeniVidiOri](https://img.shields.io/badge/VeniVidiOri-97BFB4?style=for-the-badge)](https://colab.research.google.com/github/jyoonsong48/Learning-Note/blob/main/Finding-Hidden-Messages-in-DNA/VeniVidiOri.ipynb) </kbd>
