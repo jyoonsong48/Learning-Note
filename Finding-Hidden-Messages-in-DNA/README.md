@@ -14,3 +14,7 @@ $\text{1.7 Peculiar Statistics of the Forward and Reverse Half-Strands}$
 
 $\text{1.8 Some Hidden Messages are More Elusive than Others}$
 <br> 🔗 <kbd> [![1.8](https://img.shields.io/badge/1.8-97BFB4?style=for-the-badge)](./1.8) </kbd>
+
+### $\text{📍 VeniVidiOri}$
+$\text{: Tool for Finding DnaA Boxes in Bacteria via Minimum Skew and Mismatch Search}$
+<br> 🔗 <kbd> [![VeniVidiOri](https://img.shields.io/badge/VeniVidiOri-97BFB4?style=for-the-badge)](./VeniVidiOri) </kbd>
