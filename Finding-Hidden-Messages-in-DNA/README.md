@@ -18,3 +18,9 @@ $\text{1.8 Some Hidden Messages are More Elusive than Others}$
 ### $\text{📍 VeniVidiOri}$
 $\text{: Tool for Finding DnaA Boxes in Bacteria via Minimum Skew and Mismatch Search}$ 
 <br> 🔗 <kbd> [![VeniVidiOri](https://img.shields.io/badge/VeniVidiOri-97BFB4?style=for-the-badge)](https://colab.research.google.com/github/jyoonsong48/Learning-Note/blob/main/Finding-Hidden-Messages-in-DNA/VeniVidiOri.ipynb) </kbd>
+<br> $\text{How to use:}$
+<br> $\text{1. Prepare FASTA DNA sequence file of the bacterium}$
+<br> $\text{2. Press the button above!}$
+<br> $\text{3. When redirected, press Run (▶)}$
+<br> $\text{4. Scroll down and attach the FASTA file}$
+<br> $\text{5. All done! Now you've vidi'ed the Ori!}$
