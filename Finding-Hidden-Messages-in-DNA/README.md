@@ -11,3 +11,6 @@ $\text{1.4 An Explosion of Hidden Messages}$
 
 $\text{1.7 Peculiar Statistics of the Forward and Reverse Half-Strands}$
 <br> 🔗 <kbd> [![1.7](https://img.shields.io/badge/1.7-97BFB4?style=for-the-badge)](./1.7) </kbd>
+
+$\text{1.8 Some Hidden Messages are More Elusive than Others}$
+<br> 🔗 <kbd> [![1.8](https://img.shields.io/badge/1.8-97BFB4?style=for-the-badge)](./1.8) </kbd>
