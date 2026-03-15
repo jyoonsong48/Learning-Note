@@ -24,3 +24,7 @@ $\text{: Tool for Finding DnaA Boxes in Bacteria via Minimum Skew and Mismatch S
 <br> $\text{3. When redirected, press Run (▶)}$
 <br> $\text{4. Scroll down and attach the FASTA file}$
 <br> $\text{5. All done! Now you've vidi'ed the Ori!}$
+
+### 2. Which DNA Patterns Play the Role of Molecular Clocks?
+$\text{2.2 Motif Finding Is More Difficult Than You Think}$
+<br> 🔗 <kbd> [![2.2](https://img.shields.io/badge/2.2-97BFB4?style=for-the-badge)](./2.2) </kbd>
