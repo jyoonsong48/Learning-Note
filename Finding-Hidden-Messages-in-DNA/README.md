@@ -28,3 +28,9 @@ $\text{: Tool for Finding DnaA Boxes in Bacteria via Minimum Skew and Mismatch S
 ### 2. Which DNA Patterns Play the Role of Molecular Clocks?
 $\text{2.2 Motif Finding Is More Difficult Than You Think}$
 <br> 🔗 <kbd> [![2.2](https://img.shields.io/badge/2.2-97BFB4?style=for-the-badge)](./2.2) </kbd>
+
+$\text{2.4 From Motif Finding to Finding a Median String}$
+<br> 🔗 <kbd> [![2.4](https://img.shields.io/badge/2.4-97BFB4?style=for-the-badge)](./2.4) </kbd>
+
+$\text{2.12 CS: Solving the Median String Problem}$
+<br> 🔗 <kbd> [![2.12](https://img.shields.io/badge/2.12-97BFB4?style=for-the-badge)](./2.12) </kbd>
