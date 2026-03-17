@@ -69,7 +69,7 @@ print(ProfileProb(kmer, profile))
 # Content: Implementing GreedyMotifSearch
 # ==========================================================
 k = # insert k-mer length here
-t =  # insert 
+t =  # insert total string number
 DNA = [] # insert DNA sequences here
 import math
 def HammingDistance(p, q):
