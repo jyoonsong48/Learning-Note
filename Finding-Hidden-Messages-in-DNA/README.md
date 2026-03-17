@@ -32,5 +32,8 @@ $\text{2.2 Motif Finding Is More Difficult Than You Think}$
 $\text{2.4 From Motif Finding to Finding a Median String}$
 <br> 🔗 <kbd> [![2.4](https://img.shields.io/badge/2.4-97BFB4?style=for-the-badge)](./2.4) </kbd>
 
+$\text{2.5 Greedy Motif Search}$
+<br> 🔗 <kbd> [![2.5](https://img.shields.io/badge/2.5-97BFB4?style=for-the-badge)](./2.5) </kbd>
+
 $\text{2.12 CS: Solving the Median String Problem}$
 <br> 🔗 <kbd> [![2.12](https://img.shields.io/badge/2.12-97BFB4?style=for-the-badge)](./2.12) </kbd>
