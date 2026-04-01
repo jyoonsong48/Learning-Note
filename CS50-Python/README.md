@@ -1,4 +1,4 @@
-## CS50's Introduction to Programming with Python
+## $\text{CS50's Introduction to Programming with Python}$
 ### $\text{Week 0. Functions, Variables}$
 🔗 <kbd> [![Functions, Variables](https://img.shields.io/badge/Functions,%20Variables-97BFB4?style=for-the-badge)](./WK0)
 
