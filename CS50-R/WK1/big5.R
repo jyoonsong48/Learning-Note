@@ -1,0 +1,10 @@
+big5 <- read.table(file='./tests.tsv', sep='\t', header = TRUE, fill = TRUE)
+big5$gender <- factor(big5$gender, levels = c(0, 1, 2, 3), labels = c("Unanswered", "Male", "Female", "Other"))
+big5$extroversion <- round((big5$E1 + big5$E2 + big5$E3) / 15, digits = 2)
+big5$neuroticism <- round((big5$N1 + big5$N2 + big5$N3) / 15, digits = 2)
+big5$agreeableness <- round((big5$A1 + big5$A2 + big5$A3) / 15, digits = 2)
+big5$conscientiousness <- round((big5$C1 + big5$C2 + big5$C3) / 15, digits = 2)
+big5$openness <- round((big5$O1 + big5$O2 + big5$O3) / 15, digits = 2)
+
+write.csv(big5, 'analysis.csv')
+read.csv("analysis.csv")
