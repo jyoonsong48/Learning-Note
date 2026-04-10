@@ -15,3 +15,6 @@ $\text{CS50's Introduction to Programming with Python}$
 
 $\text{CS50's Introduction to Programming with R}$
 <br> 🔗 <kbd> [![CS50's Introduction to Programming with R](https://img.shields.io/badge/CS50's%20Introduction%20to%20Programming%20with%20R-97BFB4?style=for-the-badge)](./CS50-R)
+
+$\text{Bioinformatics for Biologist}$
+<br> 🔗 <kbd> [![Bioinformatics for Biologist](https://img.shields.io/badge/Bioinformatics%20for%20Biologist-97BFB4?style=for-the-badge)](./BfB)
