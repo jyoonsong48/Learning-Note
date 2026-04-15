@@ -18,3 +18,6 @@ $\text{CS50's Introduction to Programming with R}$
 
 $\text{Bioinformatics for Biologist}$
 <br> 🔗 <kbd> [![Bioinformatics for Biologist](https://img.shields.io/badge/Bioinformatics%20for%20Biologist-97BFB4?style=for-the-badge)](./BfB)
+
+$\text{ROSALIND}$
+<br> 🔗 <kbd> [![ROSALIND](https://img.shields.io/badge/ROSALIND-97BFB4?style=for-the-badge)](./rosalind)
