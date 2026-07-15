@@ -1,1 +1,2 @@
-This space contains my personal python study log (projects...)
+### $\text{📍 Personalised Wordle}$
+$\text{: set the length of a word and guess it :3}$
