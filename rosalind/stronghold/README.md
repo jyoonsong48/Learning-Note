@@ -39,7 +39,7 @@
 ---
 
 ### $\text{7. Trees and Phylogenetics}$
-🔗 <kbd> [![7](https://img.shields.io/badge/Trees%20and%20Phylogenetics-97BFB4?style=for-the-badge)](./tree-%-phylo) </kbd>
+🔗 <kbd> [![7](https://img.shields.io/badge/Trees%20and%20Phylogenetics-97BFB4?style=for-the-badge)](./tree-&-phylo) </kbd>
 <br> $\text{Completing trees, counting ancestor nodes, computing distances from Newick format... etc.}$
 
 ---
