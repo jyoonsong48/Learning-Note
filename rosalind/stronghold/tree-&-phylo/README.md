@@ -1,6 +1,8 @@
-## $\color{#97BFB4}{\text{Trees and Phylogenetics}}$
+## $\text{Trees and Phylogenetics}$
 
-$\text{TREE – Completing a Tree}$
-$\text{INOD – Counting Phylogenetic Ancestors}$
-$\text{NWCK – Distances in Trees}$
-$\text{REAR – Reversal Distance}$
+---
+
+<br> $\text{TREE – Completing a Tree}$
+<br> $\text{INOD – Counting Phylogenetic Ancestors}$
+<br> $\text{NWCK – Distances in Trees}$
+<br> $\text{REAR – Reversal Distance}$
