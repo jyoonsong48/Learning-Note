@@ -1,4 +1,6 @@
-## $\color{#97BFB4}{\text{Alignment and Consensus}}$
+## $\text{Alignment and Consensus}$
 
-$\text{CONS – Consensus and Profile}$
-$\text{TRAN – Transitions and Transversions}$
+---
+
+<br> $\text{CONS – Consensus and Profile}$
+<br> $\text{TRAN – Transitions and Transversions}$
