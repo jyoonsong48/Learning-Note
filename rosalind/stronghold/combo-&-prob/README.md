@@ -1,5 +1,7 @@
 ## $\text{Combinatorics and Probability}$
 
+---
+
 <br> $\text{FIB – Rabbits and Recurrence Relations}$
 <br> $\text{FIBD – Mortal Fibonacci Rabbits}$
 <br> $\text{IPRB – Mendel's First Law}$
