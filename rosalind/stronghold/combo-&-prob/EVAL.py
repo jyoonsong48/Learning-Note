@@ -1,7 +1,7 @@
 import re
-dataset = """807203
-TCTCAGTTG
-0.000 0.064 0.134 0.203 0.238 0.278 0.342 0.412 0.422 0.497 0.530 0.583 0.640 0.725 0.742 0.791 0.858 0.931 1.000"""
+dataset = """positive #
+DNA string
+array (0<A<1)"""
 
 data = dataset.split("\n")
 n = int(data[0])

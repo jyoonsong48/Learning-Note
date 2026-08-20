@@ -1,7 +1,10 @@
 import re
 with open("insert file path here", 'r', encoding='utf-8') as f:
     dataset = f.read()
-
+dataset = """>Rosalind_39
+PLEASANTLY
+>Rosalind_11
+MEANLY"""
 data = dataset.split(">")
 sequences = [item for s in data for item in re.split(r'Rosalind_\d+\n', s) if item]
 sequences = [item.replace("\n", "") for item in sequences]

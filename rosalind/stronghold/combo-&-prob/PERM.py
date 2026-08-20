@@ -1,6 +1,6 @@
 from itertools import permutations
 
-n = '' # number here
+n = "number here"
 nlist = list(range(1, n+1))
 
 permu = list(permutations(nlist, n))

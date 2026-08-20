@@ -1,5 +1,5 @@
-n = "n번째 항"
-k = "더할 값 (cf. og 피보나치 수열: k = 1)"
+n = "nth #"
+k = "added # (cf. og Fibonacci: k = 1)"
 
 def fibonacci(n, k):
     a, b, c = 1, 1, 1 + k

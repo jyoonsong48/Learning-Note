@@ -1,6 +1,7 @@
 import math
 
-dataset = """sequence and numbers"""
+dataset = """DNA sequence
+Array"""
 
 data = dataset.split(" ")
 sequence = data[0]

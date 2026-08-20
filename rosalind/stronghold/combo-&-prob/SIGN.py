@@ -1,6 +1,6 @@
 from itertools import permutations, product
 
-n = "number"
+n = 2
 
 nlist = list(range(1, n+1))
 signs = list(product([-1, 1], repeat=n))
