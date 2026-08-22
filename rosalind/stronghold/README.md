@@ -47,3 +47,9 @@
 ### $\text{8. Motif Finding}$
 🔗 <kbd> [![8](https://img.shields.io/badge/Motif%20Finding-97BFB4?style=for-the-badge)](./motif-finding) </kbd>
 <br> $\text{Fetches real protein sequences via the UniProt API and searches for motifs.}$
+
+---
+
+### $\text{9. Data Structure}$
+🔗 <kbd> [![9](https://img.shields.io/badge/Data%20Structure-97BFB4?style=for-the-badge)](./data-structure) </kbd>
+<br> $\text{Set, list, dict... etc.}$
