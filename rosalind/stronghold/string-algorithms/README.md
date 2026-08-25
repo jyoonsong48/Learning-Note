@@ -13,3 +13,4 @@
 <br> $\text{EDIT – Edit Distance}$
 <br> $\text{REVP – Locating Restriction Sites}$
 <br> $\text{SCSP – Interleaving Two Motifs}$
+<br> $\text{SORT – Sorting by Reversals}$
