@@ -12,3 +12,4 @@
 <br> $\text{CORR – Error Correction in Reads}$
 <br> $\text{EDIT – Edit Distance}$
 <br> $\text{REVP – Locating Restriction Sites}$
+<br> $\text{SPEC – Inferring Protein from Spectrum}$
